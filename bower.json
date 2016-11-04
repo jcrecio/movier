@@ -1,0 +1,23 @@
+{
+  "name": "POC_AngularTypeScript",
+  "version": "0.0.0",
+  "authors": [
+    "Stefano <stefanodam@raet.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "*",
+    "angular-route": "*",
+    "angular-mocks": "*",
+    "angular-bootstrap": "*",
+    "angular-cache": "*",
+    "bootstrap": "*"
+  }
+}
