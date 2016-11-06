@@ -3,12 +3,13 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
         <script src="../vendor.js"></script>
         <script src="index.js"></script>
+        <script src="main.controller.js"></script>
         <script src="movie.service.js"></script>
         <script src="movie-list.component.js"></script>
         <script src="search-box.component.js"></script>
     </head>
-    <body>
-        <search-box></search-box>
-        <movie-list keyword="'Terminator'"></movie-list>
+    <body ng-controller="MainController as vm">
+        <search-box ng-model="vm.searchKeyword"></search-box>
+        <movie-list keyword="vm.searchKeyword"></movie-list>
     </body>
 </html>

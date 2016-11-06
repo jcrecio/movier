@@ -14,7 +14,9 @@ angular.module('movier')
             },
             templateUrl: 'movie-list.component.html',
             link: function link(scope: any, element, attrs) {
-                scope.movies = getMovies(scope.keyword);
+                scope.$watch('keyword', function(){
+                    scope.movies = getMovies(scope.keyword);
+                });
             }
         };
     }]);

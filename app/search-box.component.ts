@@ -3,11 +3,10 @@ angular.module('movier')
         return {
             restrict: 'E',
             templateUrl: 'search-box.component.html',
-            scope:{
-                text: "="
+            scope: {
+                ngModel: '='
             },
             link: function link(scope: any, element, attrs) {
-                
             }
         };
     });
