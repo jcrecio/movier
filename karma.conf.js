@@ -8,6 +8,7 @@
         files: [
             'release/app/vendor.js',
             'bower_components/angular-mocks/angular-mocks.js',
+            'app/index.js',
             'app/**/*.js',
             'spec/**/*.js',
         ],

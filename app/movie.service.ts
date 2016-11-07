@@ -24,5 +24,6 @@ angular.module('movier')
     });
 
 function matchMovie(movie, keyword){
-        return movie.name.toLowerCase().indexOf(keyword) != -1 || movie.synopsis.toLowerCase().indexOf(keyword) != -1;
+        return movie.name.toLowerCase().indexOf(keyword.toLowerCase()) != -1 
+            || movie.synopsis.toLowerCase().indexOf(keyword.toLowerCase()) != -1;
 }
