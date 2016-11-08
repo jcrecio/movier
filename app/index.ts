@@ -1,1 +1,1 @@
-angular.module('movier', []);
+angular.module('movier', ['ui.router']);

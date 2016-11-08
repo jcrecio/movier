@@ -116,6 +116,7 @@ function getVendorFiles() {
     return [
         'bower_components/angular/angular.min.js',
         'bower_components/angular-route/angular-route.min.js',
+        'node_modules/angular-ui-router/release/angular-ui-router.min.js',
         'bower_components/angular/dist/angular-cache.min.js',
         'bower_components/angular-bootstrap/ui-bootstrap.min.js',
         'bootstrap/dist/css/bootstrap.min.css',

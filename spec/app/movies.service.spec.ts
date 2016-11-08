@@ -5,13 +5,13 @@ var ALL_MOVIES = [
                 name:'Braveheart', 
                 synopsis: 'Epic movie about Scotland Independence', 
                 score: 5, 
-                thumbnail: 'img1.png' 
+                thumbnail: 'Braveheart.png' 
             }, 
             { 
                 name:'Terminator 2', 
                 synopsis: 'A T-800 has been sent from the future about 30 years to kill O\'Connor', 
                 score: 4, 
-                thumbnail: 'img2.png' 
+                thumbnail: 'Terminator2.png' 
             }
         ];
 

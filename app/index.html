@@ -3,14 +3,18 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
         <script src="../vendor.js"></script>
         <script src="index.js"></script>
+        <script src="routing.js"></script>
         <script src="main.controller.js"></script>
+        <script src="bookmarks.controller.js"></script>
         <script src="movie.service.js"></script>
         <script src="movie-list.component.js"></script>
         <script src="search-box.component.js"></script>
-        <script src="bookmarks.component.js"></script>
     </head>
-    <body ng-controller="MainController as vm">
-        <search-box ng-model="vm.searchKeyword"></search-box>
-        <movie-list keyword="vm.searchKeyword"></movie-list>
+    <body>
+        <nav>
+            <a ui-sref="main">Main</a>
+            <a ui-sref="bookmarks">Bookmarks</a>
+        </nav>
+        <ui-view></ui-view>
     </body>
 </html>
